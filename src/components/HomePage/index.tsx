@@ -37,7 +37,7 @@ export default async function HomePage() {
         <div className="p-4">
           <h2 className="text-2xl font-semibold">Artigos Recentes</h2>
         </div>
-        <div className="flex w-full max-w-[1300px] flex-wrap justify-center">
+        <div className="flex w-full max-w-[1330px] flex-wrap justify-center">
           {blogs.map((blog) => (
             <BlogCard key={blog.id} {...blog} />
           ))}
